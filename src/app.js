@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 const corsOptions = {
-    origin: ['http://localhost:5000' , 'https://raghav-0202.github.io' , 'https://rockfallsih.netlify.app'  , "https://www.rockguard.app"],
+    origin: ['http://localhost:5000' , 'https://raghav-0202.github.io' , 'https://rockfallsih.netlify.app'  , "https://www.rockguard.app" , 'http://localhost:8080'],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization', 'Cookie'],
     credentials: true ,
